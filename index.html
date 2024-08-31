@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Outdoor Coffee Roasting Experience</title>
+    <style>
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+        
+        @keyframes slideIn {
+            from { transform: translateY(20px); opacity: 0; }
+            to { transform: translateY(0); opacity: 1; }
+        }
+
+        html, body {
+            height: 100%;
+            margin: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            line-height: 1.6;
+            color: #333;
+            background: radial-gradient(ellipse at center, rgba(244, 232, 186, 1) 0%, rgba(244, 232, 186, 1) 35%, #A37551 100%);
+            overflow-x: hidden;
+        }
+
+        .content-wrapper {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            position: relative;
+            z-index: 1;
+        }
+
+        header {
+            background-color: rgba(60, 47, 47, 0.9);
+            color: #f4f1ea;
+            text-align: center;
+            padding: 1em;
+            border-radius: 5px;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .header-image {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            opacity: 0.3;
+        }
+
+        h1 {
+            margin-bottom: 0;
+            position: relative;
+            z-index: 1;
+        }
+
+        h2 {
+            color: #5c4033;
+        }
+
+        .subtitle {
+            font-style: italic;
+            margin-top: 0.5em;
+            position: relative;
+            z-index: 1;
+        }
+
+        .section {
+            background-color: rgba(255, 255, 255, 0.9);
+            border-radius: 5px;
+            padding: 20px;
+            margin-bottom: 20px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            animation: fadeIn 1s ease-out;
+        }
+
+        .section img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 5px;
+            margin-bottom: 15px;
+        }
+
+        ul {
+            padding-left: 20px;
+        }
+
+        .cta-button {
+            display: block;
+            width: 200px;
+            margin: 20px auto;
+            padding: 10px;
+            background-color: #5c4033;
+            color: #fff;
+            text-align: center;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            transition: background-color 0.3s ease;
+            animation: slideIn 1s ease-out;
+        }
+
+        .cta-button:hover {
+            background-color: #3c2f2f;
+        }
+
+        .steam-container {
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+            pointer-events: none;
+        }
+
+        .steam {
+            position: absolute;
+            bottom: -50px;
+            width: 200px;
+            height: 200px;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 50%;
+            animation: rise 8s infinite;
+        }
+
+        .steam:nth-child(1) { left: 10%; animation-delay: 0s; }
+        .steam:nth-child(2) { left: 30%; animation-delay: 2s; }
+        .steam:nth-child(3) { left: 50%; animation-delay: 4s; }
+        .steam:nth-child(4) { left: 70%; animation-delay: 6s; }
+        .steam:nth-child(5) { left: 90%; animation-delay: 8s; }
+
+        @keyframes rise {
+            0% {
+                transform: translateY(0) scale(1);
+                opacity: 0;
+            }
+            50% {
+                opacity: 0.5;
+            }
+            100% {
+                transform: translateY(-1000px) scale(2);
+                opacity: 0;
+            }
+        }
+        img.rounded-centered {
+            display: block;
+            margin: 0 auto; /* Centers the image horizontally */
+            border-radius: 15px; /* Adjust the radius as needed */
+            max-width: 100%; /* Ensures the image scales properly */
+            height: auto;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="content-wrapper">
+        <header>
+            <img src="https://th.bing.com/th/id/OIP.EjXtI78eJoSR7Hn1VnMRdwAAAA?rs=1&pid=ImgDetMain" alt="Coffee beans roasting" class="header-image">
+            <h1>Outdoor Coffee Roasting Experience</h1>
+            <p class="subtitle">Roast Your Own Coffee with Traditional Tools</p>
+        </header>
+
+        <div class="section">
+            <img src="https://www.hopculture.com/wp-content/uploads/2020/04/campingcoffee-LEAD.jpg" alt="Outdoor coffee roasting setup">
+            <h2>Description</h2>
+<div style="text-align: center;">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/IH6Rk_FkEA8?si=LvyjIpMTR_yR1VQa" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
+            <p>Immerse yourself in the art of coffee roasting with a hands-on experience that takes you back to the basics. Using just a cast iron skillet, wooden spoons, and a camping stove, you'll learn how to roast your own coffee beans in a beautiful outdoor setting. This unique adventure is perfect for anyone looking to connect with nature, learn a new skill, and enjoy the rich flavors of freshly roasted coffee.</p>
+        </div>
+
+        <div class="section">
+            <h2>What You'll Do</h2>
+            <ul>
+                <li><strong>Select Your Beans:</strong> Choose from a variety of green coffee beans, each with distinct flavor notes and origins.</li>
+                <li><strong>Roast on a Camping Stove:</strong> Roast your own beans using a cast iron skillet over a camping stove under expert guidance.</li>
+                <li><strong>Savor the Fresh Brew:</strong> Cool, grind, and immediately brew your freshly roasted beans.</li>
+                <li><strong>Take Home Your Beans:</strong> Package your roasted beans in a rustic mason jar to take home.</li>
+                <li><strong>Relax and Enjoy:</strong> Conclude with a relaxed coffee tasting session in natural surroundings.</li>
+            </ul>
+        </div>
+
+        <div class="section">
+            <img src="https://enjoyjava.com/wp-content/uploads/2020/09/Types-of-Coffee-Roasts.jpg" alt="Different coffee roast levels">
+            <h2>Why You'll Love It</h2>
+            <p>This isn't just another coffee experience—it's a return to the fundamentals of coffee roasting, where you'll learn to appreciate the craft from start to finish. Ideal for coffee enthusiasts, outdoor lovers, and anyone looking to add a new skill to their repertoire, this experience offers a unique blend of education, flavor, and relaxation.</p>
+        </div>
+
+        <div class="section">
+            <img src="https://th.bing.com/th/id/OIP.J5a5nFdNLeSpW0Y0sx5zrAHaHa?rs=1&pid=ImgDetMain" alt="Coffee beans in a jar"class="rounded-centered">
+            <h2>Perfect For</h2>
+            <ul>
+                <li>Coffee aficionados seeking a hands-on experience</li>
+                <li>Outdoor enthusiasts who love rustic, DIY activities</li>
+                <li>Couples, families, and small groups wanting to share a memorable adventure</li>
+                <li>Anyone interested in learning the traditional art of coffee roasting</li>
+            </ul>
+        </div>
+
+        <a href="mailto:warrenmadx@icloud.com?subject=Booking%20for%20Outdoor%20Coffee%20Roasting%20Experience&body=Hello,%0D%0A%0D%0AI'm interested in booking the Outdoor Coffee Roasting Experience. Could you please provide me with available dates and any additional information I might need?%0D%0A%0D%0AThank you,%0D%0A[Your Name]" class="cta-button">Book Now</a>
+    </div>
+
+    <div class="steam-container">
+        <div class="steam"></div>
+        <div class="steam"></div>
+        <div class="steam"></div>
+        <div class="steam"></div>
+        <div class="steam"></div>
+    </div>
+
+
+</body>
+</html>
